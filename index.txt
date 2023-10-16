@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>About the profession</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <h2>Who is a QA Engineer?</h2>
+    <p>This is the specialist who first comes to mind when it comes to testers. They look for bugs and errors, compiles lists
+    of identified problems so that developers can fix them, and checks whether the product meets the meets the requirements.
+    At the same time, a QA Engineer never fixes bugs, but only reports what needs to be changed and improve.</p>
+
+</body>
+</html>
