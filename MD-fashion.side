@@ -1,0 +1,334 @@
+{
+  "id": "f24af9e1-e47c-4897-8e15-d72b9c9ed90a",
+  "version": "2.0",
+  "name": "MD-fashion",
+  "url": "https://md-fashion.ua/",
+  "tests": [{
+    "id": "01e64efc-9a2f-4733-833f-7597161471fb",
+    "name": "Add to wishlist",
+    "commands": [{
+      "id": "2268cff5-564b-4f7f-b1a5-04a04d50c2d3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58802297-6b95-46a0-9d81-15193d559460",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.main-menu > li:nth-child(2) > a",
+      "targets": [
+        ["css=.main-menu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Одяг')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/store/odyah')]", "xpath:href"],
+        ["xpath=//header/div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8ea3ed8-3ba2-438c-b186-7b1af139b9fb",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, '/store/women/odyah/sukni')]",
+      "targets": [
+        ["linkText=Сукні", "linkText"],
+        ["css=li:nth-child(2) li:nth-child(1) li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Сукні')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/store/women/odyah/sukni')]", "xpath:href"],
+        ["xpath=//li/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Сукні')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c500d98-d0d0-41ba-bd74-dc462b86baf8",
+      "comment": "",
+      "command": "open",
+      "target": "store/tolstovka-her-winterised-womens-half-zip-top-puma-676009-bezhevyi",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a02693e-ca56-4f31-9bfe-0c77dd01a580",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon--fav",
+      "targets": [
+        ["css=.icon--fav", "css:finder"],
+        ["xpath=//div[@id='catalog-product']/div/div[2]/div[2]/button/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea89a999-118d-4df2-a874-2b9044537860",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.product_size_button:nth-child(3) > span",
+      "targets": [
+        ["css=.product_size_button:nth-child(3) > span", "css:finder"],
+        ["xpath=//div[@id='catalog-product']/div/div[2]/div[2]/div[2]/div/div[3]/div[2]/div[3]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/span", "xpath:position"]
+      ],
+      "value": "M"
+    }, {
+      "id": "b8d3a2c2-5592-4469-bc9d-8cb3a807e6aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wishlist:nth-child(3)",
+      "targets": [
+        ["css=.wishlist:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(@href, '/favorites')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "31111a6c-0833-426e-8b8c-757011c6f6b5",
+    "name": "Add product to cart",
+    "commands": [{
+      "id": "ce13204b-44d0-4708-956c-f42e3dcfde22",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "593abadb-82a4-4cf5-8356-75f896020185",
+      "comment": "",
+      "command": "open",
+      "target": "store/levis",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65e0205c-d14e-49be-8ac8-9df99c3aa787",
+      "comment": "",
+      "command": "open",
+      "target": "store/shkarpetky-4-pary-levis-701224695001-riznokolorovyi",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57be2ab4-f417-4885-a92b-165151a997be",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[3]/div[2]/div/span",
+      "targets": [
+        ["css=.product_size_button:nth-child(1) > span", "css:finder"],
+        ["xpath=//div[@id='catalog-product']/div/div[2]/div[2]/div[2]/div/div[3]/div[2]/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'35-38')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5890ccd6-962a-4de2-aef4-4a11be07161e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cur",
+      "targets": [
+        ["css=.cur", "css:finder"],
+        ["xpath=//div[@id='catalog-product']/div/div[2]/div[2]/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Додати в кошик')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1a23a70-6749-4d60-8ae7-f520a6d4a9d5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=1",
+      "targets": [
+        ["linkText=1", "linkText"],
+        ["css=.cart:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(@href, '/cart')]", "xpath:href"],
+        ["xpath=//div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82238f1f-4721-4afb-8bb9-c9da4d8739c8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//h2[contains(.,'Кошик')]",
+      "targets": [
+        ["css=.shopping-cart:nth-child(2) .shopping-cart__title", "css:finder"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Кошик')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad76f914-fa80-4ff5-864c-f1958e15bed5",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//h2[contains(.,'Кошик')]",
+      "targets": [],
+      "value": "Кошик"
+    }]
+  }, {
+    "id": "09009656-d9d2-40b8-bff7-a3c8a4d3cefb",
+    "name": "Filters",
+    "commands": [{
+      "id": "a75f5164-106b-4845-9659-c2f166e41fd4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a174dcf9-b008-4c68-b5e3-61b58af2ba6b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Sale')]",
+      "targets": [
+        ["css=.sale:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sale')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/store/sale')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b724286f-fbc9-40e0-89c2-1cfc2723c969",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div/div[4]/div",
+      "targets": [
+        ["css=.opened", "css:finder"],
+        ["xpath=//div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3018cf3-4706-42cc-a770-02262633b761",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filters__list__item:nth-child(2) > .filters__checkbox",
+      "targets": [
+        ["css=.filters__list__item:nth-child(2) > .filters__checkbox", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21c3f31c-d1cf-473b-b2cd-dc5d68557676",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Застосувати')]",
+      "targets": [
+        ["css=.filters__apply_btn", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Застосувати')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa406374-a31c-4b88-83ad-e3995b00c5cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filters__item:nth-child(3) > .filters__label",
+      "targets": [
+        ["css=.filters__item:nth-child(3) > .filters__label", "css:finder"],
+        ["xpath=//div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6821d07a-c2bd-44ac-94d2-6d5dcf7f6fc0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[51]/div",
+      "targets": [
+        ["css=.filters__list__sizes__wrap:nth-child(1) .filters__list__item__wrap:nth-child(51) > .filters__list__item", "css:finder"],
+        ["xpath=//div[51]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9a2ef60-b2a7-4a83-be1e-92ccd86ffca6",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.filters__apply_btn",
+      "targets": [],
+      "value": "Застосувати"
+    }, {
+      "id": "67c16f5f-24da-4158-9e27-0348a236bb6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filters__apply_btn",
+      "targets": [
+        ["css=.filters__apply_btn", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Застосувати')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb6a90c9-78e3-4c90-962b-3e420b45ba6d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.all-filters > .filters__label",
+      "targets": [
+        ["css=.all-filters > .filters__label", "css:finder"],
+        ["xpath=//div[2]/div/div/div/div/div[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5d7b8f93-6671-438c-847c-df537c7a2cd2",
+    "name": "scroll the banner",
+    "commands": [{
+      "id": "edad5dc2-5657-486e-8a6f-80643d06ebbc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6197e988-3963-4753-8261-97e1cd3bac7d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.main-slider__controls__arrows > .arrow--right",
+      "targets": [
+        ["css=.main-slider__controls__arrows > .arrow--right", "css:finder"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[45]", "xpath:href"],
+        ["xpath=//section/div[2]/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cecacd85-dc73-48cc-a57c-2d0026b56283",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-slider__controls__arrows > .arrow--right",
+      "targets": [
+        ["css=.main-slider__controls__arrows > .arrow--right", "css:finder"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[45]", "xpath:href"],
+        ["xpath=//section/div[2]/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69db9324-a89c-4766-9905-7335855cbe89",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.main-slider__controls__arrows > .arrow--left",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c22cb63-a648-4419-9158-c7a97af3cf8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-slider__controls__arrows > .arrow--left",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a793430-6625-4f24-86cb-966f8e4fabdc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.active > .main-slider__item__image img",
+      "targets": [
+        ["css=.active > .main-slider__item__image img", "css:finder"],
+        ["xpath=//img[@alt='20231027 Halloween з додатковими -20%']", "xpath:img"],
+        ["xpath=//div[2]/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8ee200ec-c293-4f80-ae20-794a75ae518e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["01e64efc-9a2f-4733-833f-7597161471fb"]
+  }],
+  "urls": ["https://www.brocard.ua/", "https://md-fashion.ua/"],
+  "plugins": []
+}
